@@ -163,28 +163,107 @@ ul.gnav{
 
 
 /*生息地のcss*/
-h1{
-    font-size:2.0em;
-}
 .city{
 
     display: flex;
-    margin-left: 200px;
-}
-h2{
-    font-size:2.0em;
-
-
-
+    justify-content: center; /*全体の配置*/
+} 
+.Osaka{
+    font-size:2.0em; /*茨木の見出し*/
+    margin-right:600px;
 }
 .ibaraki{
-
-    margin-top:250px;
-    display:flex;
+ 
+    margin-top:250px; /*本文とマップ*/
+    margin-left:400px;
 }
 
 .map{
-    position:absolute;
+    position:relative;
     z-index:30;
+    margin-top:auto;
+    margin-left:400px;
 }       
-/*ラジオ紹介*/
+
+
+/*目標ページ*/
+.after{
+    display:flex;
+    justify-content: center;
+    font-size:2.0em;
+    margin-right:500px;
+}
+.after-story{
+    display:flex;
+    justify-content: center;
+    margin-top:250px;
+    margin-right:200px;
+    font-size:20px;
+}
+
+
+/*趣味選択ページ*/
+ul.like{
+    display:flex;
+    justify-content:center;
+    margin-top:200px;
+}
+ul.like img{
+    width:200px;
+    height:200px;
+}
+
+
+/*marvelのサイト*/
+.marvel-title{
+    display:flex;
+    justify-content:center;
+    font-size:2.0em;
+    margin-right:500px;
+}
+.marvel-text{
+    text-align:center;
+    display:block;
+    margin-top:200px;
+}
+.marvel-text .text{
+    text-align:left;
+    display:inline-block;
+}
+.hero{
+    width: 300px;
+    height: 450px;
+}
+.hero img{
+    width:300px;
+    height:450px;
+}
+.marvel-nav{
+    display:flex;
+}
+
+
+/*radioのサイト*/
+.ann{
+    font-size:2.0em;
+    margin-right:500px;
+}
+.ann-wrap{
+    text-align: center;
+    display:block;
+}
+.ann-contents{
+    text-align: left;
+    display: inline-block;
+
+}
+.creepynuts{
+    margin-top:100px;
+    text-align: center;
+    display:block;
+}
+.creepy-contents{
+    text-align: left;
+    display: inline-block;
+    margin-left:100px;
+}

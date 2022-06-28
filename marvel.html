@@ -4,37 +4,51 @@
         <meta charset="utf-8">
          <link rel="stylesheet" href="css/reset.css">
          <link rel="stylesheet" href="css/base.css">
+         <link rel="stylesheet" href="css/slick.css">
+         <link rel="stylesheet" href="css/slick-theme.css">
+         <link rel="stylesheet" href="css/marvel.css">
         <title>favorite || 自己紹介サイト</title>
     </head>
     <body>
         <section id="main">
         
             <div class="myname">
-            <img src="image/hero.png" class="makan" alt="makan">
+     
            
             </div>
-
+    
             <ul class="gnav">
-                <li class="gnav"><a href="contact">contact</a></li>
-                <li class="gnav"><a href="objective.html">今後の目標</a></li>
-                <li class="gnav"><a href="favorite.html">favorite</a></li>
-                <li class="gnav"><a href="live.html">生息地</a></li>
-                <li class="gnav"><a href="button.html">TOP</a></li>
+                <li class="live"><a href="live.html"><img src="image/yoga4.png" ><p class="live-hover">from</p></a></li>
+                <li class="object"><a href="objective.html"><img src="image/araburu.png"><p class="object-hover">skil</p></a></li>
+                <li class="TOP"><a href="button.html"><img src="image/fiver.png"><p class="TOP-hover">TOP</p></a></li>
+                <li class="favo"><a href="favorite.html"><img src="image/yoga3.png"><p class="favo-hover">favorite</p></a></li>
+                <li class="call"><a href="contact.html"><img src="image/boruto.png"><p class="call-hover">contact</p></a></li>
             </ul>
         </section>
-
-        <h1>MARVEL</h1>
-        <p>Marvel Comicsはウォルト・ディズニー・カンパニー参加のニューヨークに本社を置く漫画出版社です。</p>
-        <p>代表的な作品としてスパイダーマンやアイアンマン、キャプテンアメリカ、アベンジャーズなどがあります。</p>
-        <p>またMarvel Cinematic Universe(MCU)はマーベル・スタジオが制作するスーパーヒーロー映画です</p>
-        <p>個人的に好きなキャラ</p>
-        <ul>
-            <li class="spiderman">スパイダーマン<img src="image/spiderman.jpg" alt="スパイディー"></li>
-            <li>アイアンマン<img src="image/ironman.jpg" alt="アイアン"></li>
-            <li>ウィンターソルジャー<img src="image/winter.webp" alt="ウィンター"></li>
+        <section class="marvel-form">
+        <h1 class="marvel-title">MARVEL</h1>
+        <div class="marvel-text">
+        <p class="text">Marvel Comicsはウォルト・ディズニー・カンパニー参加のニューヨークに本社を置く漫画出版社です。</br>
+        代表的な作品としてスパイダーマンやアイアンマン、キャプテンアメリカ、アベンジャーズなどがあります。</br>
+        またMarvel Cinematic Universe(MCU)はマーベル・スタジオが制作するスーパーヒーロー映画です</p>
+        </div>
+        
+        </p>
+        <div class="wrap">
+        <ul class="slider">            
+            <li class="hero"><img src="image/spiderman.jpg" alt="スパイディー"></li>
+            <li class="hero"><img src="image/dr.strange.jpeg" alt="ドクターストレンジ"></li>
+            <li class="hero"><img src="image/hawkeye.webp" alt="ホークアイ"></li>
+            <li class="hero"><img src="image/ironman.jpg" alt="ironman"></li>
+            <li class="hero"><img src="image/thor.jpg" alt="ironman"></li>
         </ul>
+        </div>
 
+        </section>
 
-
+            <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!--自作のJS-->
+    <script src="js/marvel.js"></script>
     </body>
 </html>

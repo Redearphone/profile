@@ -1,0 +1,24 @@
+/*contactのページ*/
+.contact-title{
+    font-size: 2.0em;
+    margin-bottom: 100px;
+    margin-right:500px;
+
+}
+.contact-site{
+    text-align: center;
+ 
+}
+input.name{
+    width:600px;
+}
+input.mail{
+    width:600px;
+}
+input.tel{
+    width:600px;
+}
+.comment{
+    width:600px;
+    height:300px;
+}

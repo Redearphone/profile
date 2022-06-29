@@ -1,0 +1,22 @@
+/*生息地のcss*/
+.Osaka{
+    display:flex;
+    justify-content:center;
+    font-size:2.0em;
+    margin-right:500px;
+}
+.ibaraki{
+        text-align:center;
+        display:block;
+        margin-top:200px;
+}
+.ibaraki .city-text{
+    text-align:left;
+    display:inline-block;
+}
+.map{
+    position:relative;
+    z-index:30;
+    margin-top:auto;
+    margin-left:400px;
+}       

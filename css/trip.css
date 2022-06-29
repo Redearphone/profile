@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*snapのページ*/
+.trip-main{
+    text-align: center;
+    display: block;
+}
+.trip-text{
+    text-align: left;
+    display:inline-block;
+}
+.trip-title{
+    font-size:2.0em;
+    margin-bottom: 200px;
+    margin-right:500px;
+}
+.snapbox{
+    position: relative;
+    z-index:10;
+    width:1500px;
+    margin:0 auto;
+    
+}
+.snaps{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left: 3%;
+}
+.snaps img{
+    width:450px;
+    height: 300px;
+    margin:10px;
+}

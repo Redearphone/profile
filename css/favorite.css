@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*趣味選択ページ*/
+ul.like{
+    display:flex;
+    justify-content:center;
+    margin-top:200px;
+}
+ul.like img{
+    width:200px;
+    height:200px;
+}

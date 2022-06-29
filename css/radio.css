@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*radioのサイト*/
+.ann{
+    font-size:2.0em;
+    margin-right:500px;
+}
+.ann-wrap{
+    text-align: center;
+    display:block;
+}
+.ann-contents{
+    text-align: left;
+    display: inline-block;
+
+}
+.creepynuts{
+    margin-top:100px;
+    text-align: center;
+    display:block;
+}
+.creepy-contents{
+    text-align: left;
+    display: inline-block;
+    margin-left:100px;
+}
+.simohuri_ann{
+    position:relative;
+    z-index:10;
+}
+.creepy_ann{
+    position:relative;
+    z-index:10;
+}
+

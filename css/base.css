@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background-color:ghostwhite;
+    background-color:aliceblue;
    
     
 }
@@ -173,7 +173,4 @@ ul.gnav{
     justify-content:center;
     height:200px;
 }
-
-
-
 

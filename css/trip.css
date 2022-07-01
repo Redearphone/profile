@@ -8,6 +8,7 @@
 .trip-text{
     text-align: left;
     display:inline-block;
+    margin-right: 100px;
 }
 .trip-title{
     font-size:2.0em;
@@ -17,17 +18,28 @@
 .snapbox{
     position: relative;
     z-index:10;
-    width:1500px;
+    width:1300px;
     margin:0 auto;
     
 }
 .snaps{
     display:flex;
     flex-wrap:wrap;
-    padding-left: 3%;
+    justify-content: center;
 }
 .snaps img{
-    width:450px;
-    height: 300px;
+    width:350px;
+    height: 240px;
     margin:10px;
+}
+.snap{
+    opacity:0;
+    visibility:hidden;
+    transition:1s;
+    transform:translateY(30px);
+}
+.active{
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0);
 }

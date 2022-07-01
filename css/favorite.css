@@ -9,3 +9,11 @@ ul.like img{
     width:200px;
     height:200px;
 }
+.fav-title{
+    font-size:2.0em;
+    text-align: center;
+    margin-right:500px;
+}
+.like{
+    font-size: 1.5em;
+}
